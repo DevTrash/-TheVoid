@@ -1,13 +1,49 @@
 # TheVoid
+Plugin documentation
 
----
-layout: default
-title: Getting Support
-nav: getting_support
 
----
-### Support
 
-To receive support, post an issue in our [github issues](https://github.com/GSA/GSA-APIs/issues).
+```lua
+api:IsRunning() -- Checks if the code should be running
+```
 
-<body id="getting_support"></body>
+<details><summary>Example</summary>
+<p>
+
+  
+```lua
+print(api:IsRunning()) --> true  
+```
+```lua
+if not api:IsRunning() then
+  api:quit()
+end
+```
+  
+</p>
+</details>
+
+
+<!-- NEXT LINE -->
+
+
+```lua
+api:IsRunning() -- Checks if the code should be running
+```
+
+<details><summary>Example</summary>
+<p>
+
+  
+```lua
+print(api:IsRunning()) --> true  
+```
+```lua
+if not api:IsRunning() then
+  api:quit()
+end
+```
+
+  
+</p>
+</details>
